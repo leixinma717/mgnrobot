@@ -1,0 +1,28 @@
+Simulation model,cloth
+Finished FLAGS.mode,train
+Train epochs,2
+Epoch trajectories,2
+Rollouts,
+Evaluation set,
+Core model,encode_process_decode
+Message passing aggregator,sum
+Message passing steps,5
+Attention used,False
+Ripple used,False
+Ripple generation method,
+Ripple generation number,
+Ripple node selection method,
+Ripple node selection number,
+Ripple node connection method,
+Ripple node ncross number,
+Elapsed time,0:00:36.191875
+Train mean elapsed time,0:00:08
+Mean train epoch loss,1069.6728515625
+Max train epoch loss,1184.90087890625
+Min train epoch loss,954.44482421875
+Mean eval mse loss,
+Max eval mse loss,
+Min eval mse loss,
+Mean eval l1 loss,
+Max eval l1 loss,
+Min eval l1 loss,

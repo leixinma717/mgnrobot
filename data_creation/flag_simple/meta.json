@@ -1,0 +1,50 @@
+{
+  "simulator": "arcsim",
+  "dt": 0.02,
+  "collision_radius": null,
+  "features": {
+    "cells": {
+      "type": "static",
+      "shape": [
+        1,
+        3028,
+        3
+      ],
+      "dtype": "int32"
+    },
+    "mesh_pos": {
+      "type": "static",
+      "shape": [
+        1,
+        1579,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "node_type": {
+      "type": "dynamic",
+      "shape": [
+        401,
+        1579,
+        1
+      ],
+      "dtype": "int32"
+    },
+    "world_pos": {
+      "type": "dynamic",
+      "shape": [
+        401,
+        1579,
+        3
+      ],
+      "dtype": "float32"
+    }
+  },
+  "field_names": [
+    "cells",
+    "mesh_pos",
+    "node_type",
+    "world_pos"
+  ],
+  "trajectory_length": 401
+}

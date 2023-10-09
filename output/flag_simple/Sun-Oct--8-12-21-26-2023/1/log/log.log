@@ -1,0 +1,22 @@
+2023-10-08 12:21:26,614 - =========================================================
+2023-10-08 12:21:26,614 - Start new run in C:\Users\leixi\Downloads\meshgraphnets-main\output\flag_simple\Sun-Oct--8-12-21-26-2023\1
+2023-10-08 12:21:26,614 - =========================================================
+2023-10-08 12:21:26,614 - Program started at time Sun Oct  8 12:21:26 2023
+2023-10-08 12:21:26,614 - Start training......
+2023-10-08 12:21:27,430 - 
+2023-10-08 12:21:27,430 - =======================Run Summary=======================
+2023-10-08 12:21:27,430 - Simulation task is deform simulation
+2023-10-08 12:21:27,430 - Mode is all
+2023-10-08 12:21:27,430 - Evaluation set is valid
+2023-10-08 12:21:27,430 - Train and/or evaluation configuration are 2 epochs, 2 trajectories each epoch, number of rollouts is 1
+2023-10-08 12:21:27,437 - Core model is encode_process_decode
+2023-10-08 12:21:27,437 - Message passing aggregator is sum
+2023-10-08 12:21:27,437 - Message passing steps are 5
+2023-10-08 12:21:27,437 - Attention used is False
+2023-10-08 12:21:27,437 - Ripple used is False
+2023-10-08 12:21:27,437 - Run output directory is C:\Users\leixi\Downloads\meshgraphnets-main\output\flag_simple\Sun-Oct--8-12-21-26-2023\1
+2023-10-08 12:21:27,437 - =========================================================
+2023-10-08 12:21:27,437 - 
+2023-10-08 12:21:27,439 - Epoch 1/2
+2023-10-08 12:21:27,439 - Training with 1 GPUs
+2023-10-08 12:21:27,439 -     trajectory index 1/2

@@ -1,0 +1,90 @@
+2023-10-08 19:57:20,888 - =========================================================
+2023-10-08 19:57:20,888 - Start new run in C:\Users\leixi\Downloads\meshgraphnets-main\output\flag_simple\Sun-Oct--8-19-57-20-2023\1
+2023-10-08 19:57:20,888 - =========================================================
+2023-10-08 19:57:20,888 - Program started at time Sun Oct  8 19:57:20 2023
+2023-10-08 19:57:20,888 - Start training......
+2023-10-08 19:57:21,045 - 
+2023-10-08 19:57:21,045 - =======================Run Summary=======================
+2023-10-08 19:57:21,045 - Simulation task is cloth simulation
+2023-10-08 19:57:21,045 - Mode is all
+2023-10-08 19:57:21,045 - Evaluation set is valid
+2023-10-08 19:57:21,045 - Train and/or evaluation configuration are 2 epochs, 2 trajectories each epoch, number of rollouts is 1
+2023-10-08 19:57:21,045 - Core model is encode_process_decode
+2023-10-08 19:57:21,045 - Message passing aggregator is sum
+2023-10-08 19:57:21,045 - Message passing steps are 5
+2023-10-08 19:57:21,045 - Attention used is False
+2023-10-08 19:57:21,045 - Ripple used is False
+2023-10-08 19:57:21,045 - Run output directory is C:\Users\leixi\Downloads\meshgraphnets-main\output\flag_simple\Sun-Oct--8-19-57-20-2023\1
+2023-10-08 19:57:21,045 - =========================================================
+2023-10-08 19:57:21,045 - 
+2023-10-08 19:57:21,045 - Epoch 1/2
+2023-10-08 19:57:21,045 - Training with 1 GPUs
+2023-10-08 19:57:21,045 -     trajectory index 1/2
+2023-10-08 19:57:29,647 -         trajectory_loss
+2023-10-08 19:57:29,647 -         tensor(722.9985)
+2023-10-08 19:57:29,728 -     trajectory index 2/2
+2023-10-08 19:57:38,206 -         trajectory_loss
+2023-10-08 19:57:38,206 -         tensor(779.8110)
+2023-10-08 19:57:38,226 - Current mean of epoch training losses
+2023-10-08 19:57:38,226 - tensor(1502.8096)
+2023-10-08 19:57:38,260 - Epoch 2/2
+2023-10-08 19:57:38,273 - Training with 1 GPUs
+2023-10-08 19:57:38,273 -     trajectory index 1/2
+2023-10-08 19:57:47,573 -         trajectory_loss
+2023-10-08 19:57:47,573 -         tensor(568.0876)
+2023-10-08 19:57:47,638 -     trajectory index 2/2
+2023-10-08 19:57:58,971 -         trajectory_loss
+2023-10-08 19:57:58,973 -         tensor(560.2634)
+2023-10-08 19:57:59,043 - Current mean of epoch training losses
+2023-10-08 19:57:59,043 - tensor(1315.5803)
+2023-10-08 19:57:59,170 - Finished training......
+2023-10-08 19:57:59,171 - Start evaluating......
+2023-10-08 19:57:59,175 - Evaluating trajectory 1
+2023-10-08 19:58:06,073 -     trajectory evaluation mse loss
+2023-10-08 19:58:06,073 -     tensor(1.2500, device='cuda:0')
+2023-10-08 19:58:06,073 -     trajectory evaluation l1 loss
+2023-10-08 19:58:06,073 -     tensor(0.8877, device='cuda:0')
+2023-10-08 19:58:06,073 - mean mse loss of 1 rollout trajectories
+2023-10-08 19:58:06,073 - tensor(1.2500)
+2023-10-08 19:58:06,073 - mean l1 loss 1 rollout trajectories
+2023-10-08 19:58:06,073 - tensor(0.8877)
+2023-10-08 20:00:23,140 - Finished evaluating......
+2023-10-08 20:00:23,140 - Program ended at time Sun Oct  8 20:00:23 2023
+2023-10-08 20:00:23,140 - 
+2023-10-08 20:00:23,140 - =======================Run Summary=======================
+2023-10-08 20:00:23,140 - Simulation task is cloth simulation
+2023-10-08 20:00:23,140 - Mode is all
+2023-10-08 20:00:23,140 - Evaluation set is valid
+2023-10-08 20:00:23,140 - Train and/or evaluation configuration are 2 epochs, 2 trajectories each epoch, number of rollouts is 1
+2023-10-08 20:00:23,140 - Core model is encode_process_decode
+2023-10-08 20:00:23,140 - Message passing aggregator is sum
+2023-10-08 20:00:23,140 - Message passing steps are 5
+2023-10-08 20:00:23,140 - Attention used is False
+2023-10-08 20:00:23,140 - Ripple used is False
+2023-10-08 20:00:23,140 - Run output directory is C:\Users\leixi\Downloads\meshgraphnets-main\output\flag_simple\Sun-Oct--8-19-57-20-2023\1
+2023-10-08 20:00:23,140 - =========================================================
+2023-10-08 20:00:23,140 - 
+2023-10-08 20:00:23,140 - Run total elapsed time 0:03:02.251753
+
+2023-10-08 20:00:23,140 - --------------------train loss record--------------------
+2023-10-08 20:00:23,140 - ('train_total_loss', tensor(2631.1606))
+2023-10-08 20:00:23,140 - ('train_mean_epoch_loss', 1315.580322265625)
+2023-10-08 20:00:23,140 - ('train_max_epoch_loss', 1502.8095703125)
+2023-10-08 20:00:23,140 - ('train_min_epoch_loss', 1128.35107421875)
+2023-10-08 20:00:23,140 - ('train_epoch_losses', [tensor(1502.8096), tensor(1128.3511)])
+2023-10-08 20:00:23,140 - ('all_trajectory_train_losses', [tensor(722.9985), tensor(779.8110), tensor(568.0876), tensor(560.2634)])
+2023-10-08 20:00:23,140 - ('is_train_break', False)
+2023-10-08 20:00:23,140 - ---------------------------------------------------------
+2023-10-08 20:00:23,140 - 
+2023-10-08 20:00:23,140 - --------------------eval loss record---------------------
+2023-10-08 20:00:23,140 - ('eval_total_mse_loss', 1.2499970197677612)
+2023-10-08 20:00:23,140 - ('eval_total_l1_loss', 0.8876601457595825)
+2023-10-08 20:00:23,140 - ('eval_mean_mse_loss', 1.2499970197677612)
+2023-10-08 20:00:23,140 - ('eval_max_mse_loss', 1.2499970197677612)
+2023-10-08 20:00:23,140 - ('eval_min_mse_loss', 1.2499970197677612)
+2023-10-08 20:00:23,140 - ('eval_mean_l1_loss', 0.8876601457595825)
+2023-10-08 20:00:23,140 - ('eval_max_l1_loss', 0.8876601457595825)
+2023-10-08 20:00:23,140 - ('eval_min_l1_loss', 0.8876601457595825)
+2023-10-08 20:00:23,140 - ('eval_mse_losses', [tensor(1.2500)])
+2023-10-08 20:00:23,140 - ('eval_l1_losses', [tensor(0.8877)])
+2023-10-08 20:00:23,156 - ---------------------------------------------------------

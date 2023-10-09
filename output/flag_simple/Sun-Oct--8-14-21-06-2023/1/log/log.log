@@ -1,0 +1,41 @@
+2023-10-08 14:21:06,275 - =========================================================
+2023-10-08 14:21:06,276 - Start new run in C:\Users\leixi\Downloads\meshgraphnets-main\output\flag_simple\Sun-Oct--8-14-21-06-2023\1
+2023-10-08 14:21:06,276 - =========================================================
+2023-10-08 14:21:06,277 - Program started at time Sun Oct  8 14:21:06 2023
+2023-10-08 14:21:06,277 - Start training......
+2023-10-08 14:21:07,000 - 
+2023-10-08 14:21:07,000 - =======================Run Summary=======================
+2023-10-08 14:21:07,010 - Simulation task is cloth simulation
+2023-10-08 14:21:07,010 - Mode is all
+2023-10-08 14:21:07,011 - Evaluation set is valid
+2023-10-08 14:21:07,011 - Train and/or evaluation configuration are 2 epochs, 2 trajectories each epoch, number of rollouts is 1
+2023-10-08 14:21:07,011 - Core model is encode_process_decode
+2023-10-08 14:21:07,011 - Message passing aggregator is sum
+2023-10-08 14:21:07,011 - Message passing steps are 5
+2023-10-08 14:21:07,011 - Attention used is False
+2023-10-08 14:21:07,011 - Ripple used is False
+2023-10-08 14:21:07,011 - Run output directory is C:\Users\leixi\Downloads\meshgraphnets-main\output\flag_simple\Sun-Oct--8-14-21-06-2023\1
+2023-10-08 14:21:07,012 - =========================================================
+2023-10-08 14:21:07,012 - 
+2023-10-08 14:21:07,013 - Epoch 1/2
+2023-10-08 14:21:07,013 - Training with 1 GPUs
+2023-10-08 14:21:07,014 -     trajectory index 1/2
+2023-10-08 14:21:15,593 -         trajectory_loss
+2023-10-08 14:21:15,593 -         tensor(702.8765)
+2023-10-08 14:21:15,662 -     trajectory index 2/2
+2023-10-08 14:21:23,976 -         trajectory_loss
+2023-10-08 14:21:23,976 -         tensor(437.6439)
+2023-10-08 14:21:24,009 - Current mean of epoch training losses
+2023-10-08 14:21:24,009 - tensor(1140.5204)
+2023-10-08 14:21:24,044 - Epoch 2/2
+2023-10-08 14:21:24,044 - Training with 1 GPUs
+2023-10-08 14:21:24,044 -     trajectory index 1/2
+2023-10-08 14:21:32,537 -         trajectory_loss
+2023-10-08 14:21:32,537 -         tensor(560.9816)
+2023-10-08 14:21:32,577 -     trajectory index 2/2
+2023-10-08 14:21:41,053 -         trajectory_loss
+2023-10-08 14:21:41,053 -         tensor(555.5040)
+2023-10-08 14:21:41,077 - Current mean of epoch training losses
+2023-10-08 14:21:41,077 - tensor(1128.5029)
+2023-10-08 14:21:41,145 - Finished training......
+2023-10-08 14:21:41,145 - Start evaluating......
